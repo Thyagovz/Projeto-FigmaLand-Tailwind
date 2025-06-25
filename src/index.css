@@ -1,1 +1,25 @@
 @import "tailwindcss";
+
+@font-face {
+  font-family: "Graphik-bold";
+  src: url("./fonts/Graphik/Graphik-Bold-Trial.otf") format("opentype");
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Graphik";
+  src: url("./fonts/Graphik/Graphik-Regular-Trial.otf") format("opentype");
+  font-style: normal;
+  font-display: swap;
+}
+
+@theme {
+  --font-Graphik-bold: Graphik-bold, "sans-serif";
+  --font-Graphik: Graphik, "sans-serif";
+
+  --color-primary: #2091f9;
+  --color-text: #252b42;
+  --color-secondary: #374754;
+  --color-dark-background: #252b42;
+}
